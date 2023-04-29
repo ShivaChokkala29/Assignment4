@@ -1,0 +1,47 @@
+<blog>
+	<post>
+		<date>April 10, 2023</date>
+		<author>Mahesh R</author>
+		<title>AWS S3 Multi-Region Access Points</title>
+		<summary>
+			<image_path>https://miro.medium.com/v2/resize:fit:828/format:webp/1*wqvavqwIjMC3dNav92rbfw.png</image_path>
+			<text>Amazon S3 is an Object Storage service that provides virtually unlimited storage for all your file storage needs. As an added feature, you can configure a storage bucket for versioning to keep the files based on the update made to it.</text>
+		</summary>
+		<body>Amazon S3 Multi-Region Access Points offer a global S3 hostname that provides access to multiple S3 buckets across AWS Regions with automatic routing and failover between buckets. Requests made to an S3 Mutli-Region Access Point global host name are routed and accelerated across AWS Global Accelerator network. Requests will be served by bucket with lowest latency.</body>
+	</post>
+	<post>
+		<date>April 10, 2023</date>
+		<author>Mahesh R</author>
+		<title>AWS S3 Multi-Region Access Points</title>
+		<summary>
+			<image_path>https://miro.medium.com/v2/resize:fit:828/format:webp/1*wqvavqwIjMC3dNav92rbfw.png</image_path>
+			<text>Amazon S3 is an Object Storage service that provides virtually unlimited storage for all your file storage needs. As an added feature, you can configure a storage bucket for versioning to keep the files based on the update made to it.</text>
+		</summary>
+		<body> After logging into your AWS Console, under Services > All Services, search for “S3” and click on it to go to the S3 dashboard.
+On the S3 DashMake sure you create the buckets in different AWS Region, and Enable Bucket Versioning.
+board, click on the Create Bucket button to create a new storage bucket.
+Enter the bucket name. The name has to be globally unique, so just try with another name if you get an error “Bucket with the same name already exists”.
+Leave all other settings intact & click on the Create bucket button at the bottom of the page
+</body>
+	</post>
+<post>
+		<date>April 10, 2023</date>
+		<author>Mahesh R</author>
+		<title>AWS S3 Multi-Region Access Points</title>
+		<summary>
+			<image_path>https://miro.medium.com/v2/resize:fit:828/format:webp/1*wqvavqwIjMC3dNav92rbfw.png</image_path>
+			<text>Amazon S3 is an Object Storage service that provides virtually unlimited storage for all your file storage needs. As an added feature, you can configure a storage bucket for versioning to keep the files based on the update made to it.</text>
+		</summary>
+		<body> Now follow the same steps from Step 1 b) to e) but this time change the name of the bucket, and change the region to any of your choice (I am creating in Ireland).
+Creating the Multi-Region Access Points
+
+a) Select the Multi-Region Access Points on the left pane of S3 Dashboard.
+
+b) Now click on Create Multi-Region Access Point to create MRAP.
+Enter a Access Point name which is unique, make sure to set a clear name as this can’t be edited after MRAP is created.
+
+d) Click on Add buckets and select both buckets to add the buckets to MRAP
+</body>
+	</post>
+</blog>
+	
